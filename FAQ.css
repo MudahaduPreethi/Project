@@ -1,0 +1,49 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Aboutimg.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Ensures full viewport height */
+}
+
+/* Section with Background Image */
+
+
+/* Section Title Styling */
+.section-with-background h2 {
+    font-size: 32px; /* Large font for the title */
+    font-weight: bold;
+    color: white; /* Title text in white */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Section Paragraph Styling */
+.section-with-background p {
+    font-size: 18px; /* Standard size for text */
+    line-height: 1.6; /* Adjust line height for readability */
+    max-width: 800px; /* Limit text width for better layout */
+    margin: 0 auto; /* Center the text */
+}
+
+/* Optional: Button Styling */
+.section-with-background .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px; /* Rounded corners for the button */
+    margin-top: 20px;
+}
+
+.section-with-background .btn:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}
